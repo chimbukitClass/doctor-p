@@ -1,0 +1,26 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100vw;
+    height: 80px;
+    /* background-color: dodgerblue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.header ul{
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+.header ul li{
+    margin: 0px 10px;
+    padding: 5px 5px;
+}
+.header ul li a{
+    text-decoration: none;
+}
